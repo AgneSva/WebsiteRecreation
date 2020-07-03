@@ -183,3 +183,19 @@ footer  > button:hover{
     color: violet;
     
 }
+
+.container {
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+    justify-content: center;
+  }
+
+  .container > div {
+    
+    width: auto;
+    margin: 30px;
+    text-align: start;
+    line-height: 75px;
+    font-size: 30px;
+  }
