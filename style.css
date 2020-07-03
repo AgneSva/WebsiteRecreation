@@ -1,0 +1,185 @@
+*{
+    
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans';
+}
+
+header{
+    background-color: darkgray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.1px 10%;
+  
+}
+
+
+
+.logo{
+    transform: scale(0.8);
+    
+}
+
+
+ul{
+    list-style: none;
+}
+li{
+    display: inline-block;
+    padding-right: 10px;  
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#registracija{
+    padding: 20px;
+    margin: 10px;
+    color: white;
+    background-color: black;
+    border: none;
+    text-align: center;
+    padding-left: 3em;
+    padding-right: 3em;
+    
+}
+
+#registracija:hover{
+    background-color: darkgray;
+}
+
+.pagr{
+width: 100%;
+height: auto;
+filter: brightness(70%);
+}
+.center {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    font-size: 3rem;
+    text-align: center;
+    color: white;
+  }
+
+  p{
+      font-size:2rem;
+      font-weight: lighter;
+      text-align: center;
+      margin: 2em;
+  }
+
+  h1{
+      margin: 4rem;
+      text-align: center;
+      font-weight: normal;
+      padding: 2rem;
+  }
+
+ .parIMG{
+width: 50%;
+height: auto;
+margin-left: 4rem;
+  float: right;
+  
+ }
+
+ .par1{
+     padding: 3rem;
+     text-align: auto;
+     font-size: 24px;
+     font-weight: lighter;
+     display: inline-block;
+ }
+ 
+ .par2IMG{
+    width: 50%;
+    height: auto;
+    margin-right: 4rem;
+      float: left;
+      
+     }
+
+.par2{
+    display: inline-block;
+    padding: 3rem;
+    text-align: auto;
+    font-size: 24px;
+    font-weight: lighter;
+
+     
+}
+
+.par2 > h2{
+    font-weight: 500;
+    margin-top: 2em;
+}
+
+.par1 > h2{
+    font-weight: 500;
+    margin-top: 1em;
+}
+    
+.par3IMG{
+    width: 50%;
+    height: auto;
+    margin-right: 4rem;
+      float: left;
+      
+     }
+
+.par3{
+    margin: 2em;
+    margin-bottom: 5cm;
+   
+ 
+}
+
+.par3 > button{
+font-size: xx-large;
+width: 6em;
+color: white;
+font-family: 'Gill Sans';
+background-color: black;
+font-size: xx-large;
+font-weight: lighter;
+text-align: center;
+padding-top: 0.2em;
+padding-bottom: 0.2em;
+margin-left: 4em;
+margin-top: 2em;
+
+}
+
+
+
+footer{
+    
+    position: relative;
+	display: inline-block;
+	padding-top: 10px;
+	padding-bottom: 70px;
+	justify-content: center;
+	left: 50%;
+	align-items: center;
+}
+
+
+
+
+footer > button{
+    border: none;
+    background: white;
+    color: purple;    
+}
+
+footer  > button:hover{
+    color: violet;
+    
+}

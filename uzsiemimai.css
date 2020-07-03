@@ -1,0 +1,18 @@
+.p1, .p2{
+   margin-top: 3cm;
+   margin-bottom: 5cm;
+    text-align: absolute;
+    font-size: 18px;
+    font-weight: lighter;
+    display: block;
+    margin-left: 8em;
+    margin-right: 8em;
+}
+
+.p1 > img , .p2 > img{
+width: 50%;
+height: auto;
+margin: 2rem;
+float: left;
+}
+
