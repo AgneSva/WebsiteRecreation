@@ -1,4 +1,4 @@
-# websiteRecreation
+# WebsiteRecreation
 
 Recreated aforcebjj.lt website using HTML and CSS.
 
