@@ -9,6 +9,18 @@
 </head>
 
 <body>
+
+
+
+<form id="form" target="_blank" method="get" class="hide">
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname" value="John"><br>
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lname" value="Doe"><br><br>
+    <input type="submit" value="Submit">
+  </form>
+    
+
     <header>
         <a href="index.html"><img src="5df52937a58b6271d5cc4046_ezgif.com-webp-to-png.png" alt="" class="logo"></a>
         <nav>
@@ -26,7 +38,8 @@
                 <li><a href="komanda.html">KOMANDA</a></li>
                 <li><a href="kontaktai.html">KONTAKTAI</a></li>
                 <li><a href="apie.html">APIE</a></li>
-                <button id="registracija">REGISTRACIJA</button>
+                <button id="registracija" >REGISTRACIJA
+                </button>
             </ul>
         </nav>
     </header>
@@ -65,9 +78,9 @@ Iškeiskite monotoniškas treniruotes į Brazilian Jiu-Jitsu. Čia sutvirtinsite
 <div class="par3">
 <img src="5df529c7a58b620d6bcc4342_vietojmetimofoto.jpg" alt="" class="par3IMG">
 
-<button>VILNIUS</button>
+<button> <a href="vilnius.html">VILNIUS</a></button>
 <br>
-<button>KAUNAS</button>
+<button> <a href="kaunas.html">KAUNAS</a></button>
 
 </div>
 
@@ -79,6 +92,60 @@ Iškeiskite monotoniškas treniruotes į Brazilian Jiu-Jitsu. Čia sutvirtinsite
 
 
 </footer>
+
+
+<!-- MODAL/POPUP -->
+
+<div class="modal-bg  hide">
+<div class="modal">
+REGISTRACIJA
+<button id="closeBTN">X</button>
+<br>
+<form action="" target="_self" method="GET">
+    <label for="fname">Vardas:</label><br>
+    <input type="text" id="fname" name="fname" value=""><br>
+    <label for="email">E-mail:</label><br>
+    <input type="email" id="email" name="email" value=""><br><br>
+
+    <input type="radio" id="vilnius" name="miestas" value="vilnius">
+  <label for="male">Vilnius</label><br>
+  <input type="radio" id="kaunas" name="miestas" value="kaunas">
+  <label for="Kaunas">Kaunas</label><br>
+  <br>
+  <input type="checkbox" id="sutinku" >
+  <label for="sutinku" id="sutinku"> Sutinku su privatumo politika </label><br>
+
+    <input type="submit" value="Siųsti">
+    
+
+</form>
+
+</div>
+
+
+
+</div>
+
+
+
+
+<script>
+   let registracijaBTN=document.getElementById('registracija');
+   let closeBTN=document.getElementById('closeBTN');
+   registracijaBTN.addEventListener('click', function(){
+document.querySelector('.modal-bg').classList.remove('hide')
+   })
+
+   closeBTN.addEventListener('click', function(){
+document.querySelector('.modal-bg').classList.add('hide')
+   })
+
+
+
+    </script>
+
+
+
 </body>
 
 </html>

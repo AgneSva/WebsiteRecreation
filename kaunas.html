@@ -72,6 +72,55 @@
     </div>
 
 
+    <div class="modal-bg  hide">
+        <div class="modal">
+        REGISTRACIJA
+        <button id="closeBTN">X</button>
+        <br>
+        <form action="" target="_self" method="GET">
+            <label for="fname">Vardas:</label><br>
+            <input type="text" id="fname" name="fname" value=""><br>
+            <label for="email">E-mail:</label><br>
+            <input type="email" id="email" name="email" value=""><br><br>
+        
+            <input type="radio" id="vilnius" name="miestas" value="vilnius">
+          <label for="male">Vilnius</label><br>
+          <input type="radio" id="kaunas" name="miestas" value="kaunas">
+          <label for="Kaunas">Kaunas</label><br>
+          <br>
+          <input type="checkbox" id="sutinku" >
+          <label for="sutinku" id="sutinku"> Sutinku su privatumo politika </label><br>
+        
+            <input type="submit" value="Siųsti">
+            
+        
+        </form>
+        
+        </div>
+        
+        
+        
+        </div>
+        
+        
+        
+        
+        <script>
+           let registracijaBTN=document.getElementById('registracija');
+           let closeBTN=document.getElementById('closeBTN');
+           registracijaBTN.addEventListener('click', function(){
+        document.querySelector('.modal-bg').classList.remove('hide')
+           })
+        
+           closeBTN.addEventListener('click', function(){
+        document.querySelector('.modal-bg').classList.add('hide')
+           })
+        
+        
+        
+            </script>
+        
+        
 
 
 
